@@ -1,0 +1,16 @@
+logLevel: info
+
+webrtc: true
+webrtcAddress: :8889
+webrtcLocalUDPAddress: :8189
+
+webrtcIPsFromInterfaces: false
+webrtcAdditionalHosts:
+  - 100.75.101.73
+
+webrtcAllowOrigins:
+  - "*"
+
+paths:
+  cam:
+    source: publisher

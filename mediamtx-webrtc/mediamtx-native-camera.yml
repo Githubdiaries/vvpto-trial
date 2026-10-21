@@ -1,0 +1,25 @@
+logLevel: info
+
+webrtc: true
+webrtcAddress: :8889
+webrtcLocalUDPAddress: :8189
+
+webrtcIPsFromInterfaces: false
+webrtcAdditionalHosts:
+  - 100.75.101.73
+
+webrtcAllowOrigins:
+  - "*"
+
+paths:
+  cam:
+    source: rpiCamera
+    sourceOnDemand: true
+    rpiCameraWidth: 640
+    rpiCameraHeight: 480
+    rpiCameraFPS: 30
+    rpiCameraCodec: auto
+    rpiCameraDenoise: "off"
+    rpiCameraBitrate: 1500000
+    rpiCameraIDRPeriod: 15
+    rpiCameraAfMode: continuous

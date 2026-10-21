@@ -1,0 +1,7 @@
+/mediamtx
+/mediamtx.tar.gz
+/mediamtx.yml.original
+/static/reader.js
+/live_hls/
+__pycache__/
+*.pyc

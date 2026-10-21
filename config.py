@@ -56,7 +56,7 @@ class LedConfig:
     # True  : LED flips ON/OFF every frame -> ambient light is cancelled by
     #         subtracting consecutive frames (software "bandpass", see README).
     # False : LED stays on, no ambient rejection (useful for first bring-up).
-    pulse: bool = True
+    pulse: bool = False
 
 
 # --------------------------------------------------------------------------
